@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+
+.todolistapp-conatiner {
+  margin-top: 100px;
+  max-width: 1000px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.list-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0; /* Optional: container background */
+  }
+  
+  .alllist {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px; /* Optional: for rounded edges */
+    text-align: center;
+  }
+  
+  .alllist li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Align text and buttons horizontally */
+    align-items: center;
+    background-color: #fff; /* Optional: background color for each item */
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .alllist li .text {
+    flex-grow: 1; /* Make the text take up available space */
+    text-align: left;
+  }
+  
+  .alllist button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  .edit {
+    color: green;
+  }
+  
+  .delete {
+    color: red;
+  }
+  
+  
+
+.input-container {
+  width: 320px;
+  margin: 10px;
+}
+.input-container input {
+  width: 100%;
+  padding: 10px;
+}
+
+.new-input{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+
+}
